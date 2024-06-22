@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 
+import joblib
+
+
 
 filename = 'final_model.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
